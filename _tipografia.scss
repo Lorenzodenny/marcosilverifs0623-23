@@ -8,3 +8,10 @@ $interlinea: 1.5em;
     font-#{$modifica}: $valore;
 }
 
+@mixin padding ( $direzione, $dimensione){
+    padding-#{$irezione}: $dimensione
+}
+
+@mixin margin ( $direzione, $dimensione){
+    margin-#{$direzone}: $dimensione
+}
