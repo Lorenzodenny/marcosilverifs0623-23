@@ -1,0 +1,11 @@
+@mixin bottone {
+    color: $coloreBianco;
+    border-radius: 5px;
+    padding: 5%;
+    border: 0;
+    margin: 1%;
+    &:hover{
+        cursor: pointer;
+        @include pulsazione
+    }
+}

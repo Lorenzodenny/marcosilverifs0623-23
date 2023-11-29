@@ -1,0 +1,19 @@
+
+@mixin pulsazione {
+    transition: transform 0.3s linear;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+@mixin ingressoFoto{
+   animation-name: ingresso;
+   animation-duration: 3s;
+   position: relative;
+}
+
+
+@keyframes ingresso{
+    from{transform: translateY(300px) ;}
+    to{transform: translateY(0) ;}
+}
