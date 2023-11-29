@@ -9,7 +9,7 @@ $interlinea: 1.5em;
 }
 
 @mixin padding ( $direzione, $dimensione){
-    padding-#{$irezione}: $dimensione
+    padding-#{$direzione}: $dimensione
 }
 
 @mixin margin ( $direzione, $dimensione){
